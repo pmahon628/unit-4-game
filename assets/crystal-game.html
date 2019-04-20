@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="unit_4_game/gamestyle.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <script src="unit_4_game/js.js"></script>
+
+        
+    <!--PSEUDOCODE STEPS-->
+
+    <!--1. have different crystals linked up, right now, acting as one counter-->
+    <!--2. Assign random numbers crystals when clicked-->
+    <!--3. Assign random number to score-->
+    <!--4. after game ends, reset crytals.-->
+   
+   <title>simple crystal game</title>
+
+</head>
+
+<body>
+        <div class="jumbotron">
+                <h1 class="text-center">
+                 <strong>The Crystal Game!</strong>
+                 </h1>
+                <hr>
+            <p><strong>Welcome to the crystal guessing game!</strong></p>
+                  
+                </div>
+              </div>
+
+        <ul><h2>Instructions!</h2>
+            <ul>Click on the crystals to see what their value is.</ul>
+            <ul>Keep track of values as you are trying to match the value below.</ul>
+            <ul>If you go over, you lose!</ul>
+            <ul>Match the value, you win.</ul>
+            <ul>Prizes will be determined by Douglas Reynholm, Viago, and a third party to be named later.</ul>
+        </ul>
+ 
+   <div class="container">
+       <div class="row">
+           <div class="col-md-12">
+
+<div id="crystals" class="card"> 
+    <h4 class="card-header">click a crystal to see its value!</h4>
+     <div class="card-body">
+    <img  src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" class="crysOne" id="one" alt="crysOne">
+    <img  src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" class="crysTwo" id="two" alt="crysTwo">
+    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" class="crysThree" id="three" alt="crysThree">
+    <img  src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" class="crysFour" id="four" alt="crysFour">
+</div>
+</div>
+
+<div class="userTotal">
+    <h2>Your score!</h2>
+      <span id="finalTotal"></span>
+      </h2>
+    </div>
+
+  
+<div id="crystals" class="card"> 
+    <h4 class="card-header">click a crystal to see its value!</h4>
+     <div class="card-body">
+<p id="randomNumber"></p>
+</div>
+ 
+</body>
+ </html>

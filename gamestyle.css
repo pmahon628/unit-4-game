@@ -1,0 +1,37 @@
+#one {
+    width: 200px;
+    height: 200px;
+  }
+
+  #two {
+      width: 200px;
+      height: 200px
+  }
+
+  #three {
+      width: 200px;
+      height: 200px;
+  }
+    
+  #four {
+        width: 200px;
+        height: 200px;
+    }
+
+    .jumbotron {
+        background-color: lightcyan;
+        width: 50%;
+        color: blue;
+    }
+
+    #display-4{
+        color: blue;
+    }
+
+    #randomNumber { 
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 25px;
+    }

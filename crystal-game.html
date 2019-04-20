@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="gamestyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="goodgame.js"></script>
+
+    <title>simple crystal game</title> 
+ 
+    </head>
+
+<body>
+
+       <div class="jumbotron">
+                <h1 class="text-center">
+                 <strong>The Crystal Game!</strong>
+                 </h1>
+                <hr>
+            <p><strong>Welcome to the crystal guessing game!</strong></p>
+                  
+                </div>
+              </div>
+
+        <ul><h2>Instructions!</h2>
+            <ul>Click on the crystals to see what their value is.</ul>
+            <ul>Keep track of values as you are trying to match the value below.</ul>
+            <ul>If you go over, you lose!</ul>
+            <ul>Match the value, you win.</ul>
+            <ul>Prizes will be determined by Douglas Reynholm, Viago, and a third party to be named later.</ul>
+        </ul>
+ 
+   <div class="container">
+       <div class="row">
+           <div class="col-md-12">
+
+<div id="crystals" class="card"> 
+    <h4 class="card-header">click a crystal to see its value!</h4>
+     <div class="card-body">
+    <img id="one" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crysOne">
+    <img id="two"  src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crysTwo">
+    <img id="three"  src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"  alt="crysThree">
+    <img id="four" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"   alt="crysFour">
+     </div>
+
+
+    <div class="row">
+    <div class='col-md-4'>
+
+    <div id="totals">
+    <div class="userTotal">
+        <div class="card-body">
+    <h2>Your score:</h2>
+      <span id="finalTotal"></span>
+      </h2>
+    <div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+        </h2>
+      
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+<div id="crystals" class="card"> 
+    <h4 class="card-header">click a crystal to see its value!</h4>
+     <div class="card-body">
+<p id="randomNumber"></p>
+</div>
+</div>
+ 
+</body>
+ </html>
